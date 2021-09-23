@@ -18,6 +18,7 @@ const data = {
             price: 2100,
             image:'https://upload.wikimedia.org/wikipedia/commons/8/86/Laptop_mazhar.JPG',
         },
+    
     ],
 };
 

@@ -44,7 +44,10 @@ const Basket = ({cartItems, onAdd, onRemove}) => {
                     <div className="col-2"><strong>Total Price</strong></div>
                     <div className="col-1 text-right"><strong>R{totalPrice}</strong></div>
                     </div>
-
+                        <hr/>
+                        <div className="row">
+                            <button onClick={()=>alert("Checkout")}>Checkout</button>
+                        </div>
                 </>
             )
         }
